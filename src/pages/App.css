@@ -1,0 +1,140 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #222;
+  margin-top: 20px;
+}
+
+/* Step 4: Improve Navbar */
+nav {
+  background-color: #444; /* Dark gray background */
+  display: flex;  /* Aligns links horizontally */
+  justify-content: space-between; /* Adds spacing */
+  padding: 15px 20px;
+  border-radius: 8px; /* Smooth edges */
+}
+
+nav a {
+  color: white; /* White text */
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+
+a {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0056b3;
+}
+.hero {
+  text-align: center;
+  padding: 50px;
+  background: #ffcc00;
+  border-radius: 10px;
+}
+
+.shop-now {
+  background: #222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shop-now:hover {
+  background: #444;
+}
+body {
+  background-image: url('/path-to-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.product-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.product-item h3,
+.product-item p {
+  margin: 5px 0;
+}
